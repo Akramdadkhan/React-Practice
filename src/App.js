@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Api from "./Components/Api";
 // import Toggle from "./Components/Toggle";  
 // import TODOLIST1 from "./Components/TODOLIST1";
 // import ToDoPractice from "./Components/ToDoPractice";
@@ -16,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import FetchData from "./Components/API2/FetchData";
 // import PostData from "./Components/API2/PostData";
 // import FetchingDataFromRedux from "./Components/Redux/FetchingDataFromRedux";
-import UseRefWithFocus from "./Components/UseRef/UseRefWithFocus";
+// import UseRefWithFocus from "./Components/UseRef/UseRefWithFocus";
 // import Bulb from "./Components/Bulb";
 // import FetchingDataFromApi from "./Components/API/FetchingDataFromApi";
 // import ProductList from "./Components/ProductList";
@@ -44,7 +45,7 @@ function App() {
       {/* <PostData/> */}
      {/* <FetchData/> */}
      {/* <FetchingDataFromRedux/> */} 
-     <UseRefWithFocus/>
+     {/* <UseRefWithFocus/> */}
      {/* <UseRefCount/> */}
      {/* <Home/> */}
      {/* <Navigation/> */}
@@ -57,6 +58,7 @@ function App() {
      {/* <Props1/> */}
      {/* <TODOLIST1/> */}
      {/* <Toggle/> */}
+     <Api/>
      </div>
   );
 }
