@@ -1,0 +1,26 @@
+ 
+
+.bulb{
+    background-color: yellow;
+    margin: 200px;
+    margin-left: 500px;
+    height: 300px;
+    width: 300px;
+    border-radius:50% ;
+    /* text-align: center; */
+    padding: 120px;
+    padding-top: 140px;
+    
+}
+.bulboff{
+    background-color:grey;
+    margin: 200px;
+    margin-left: 500px;
+    height: 300px;
+    width: 300px;
+    border-radius:50% ;
+    /* text-align: center; */
+    padding: 120px;
+    padding-top: 140px;
+    
+}
